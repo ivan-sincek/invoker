@@ -5,6 +5,9 @@
 #include <windows.h>
 #pragma  comment(lib, "user32")
 
+// NOTE: Change seed to help you change the file hash.
+int seed = 3301;
+
 void Message(const char* msg) {
 	MessageBoxA(0, msg, "Invoker", MB_OK);
 }
