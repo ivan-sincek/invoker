@@ -1,0 +1,3 @@
+EXPORTS
+    GetHookType @1
+    HookProc @2
